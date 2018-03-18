@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MVCBlog.Domain.Entities
 {
-    class Essay
+    public class Essay
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

@@ -1,8 +1,11 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using MVCTutorialProject.Models;
+using MVCBlog.App.Services;
+using MVCBlog.Domain.Entities;
+using MVCBlog.Models;
 
-namespace MVCTutorialProject.Controllers
+namespace MVCBlog.Controllers
 {
     public class HomeController : Controller
     {
@@ -10,7 +13,15 @@ namespace MVCTutorialProject.Controllers
         [Route("")]
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Home");
+        }
+
+        [HttpGet]
+        [Route("Home")]
+        public IActionResult Home(int? id, BlogApp app)
+        {
+            List<Essay> model = app.Get(id, null);
+            return View(model);
         }
 
         [HttpGet]
@@ -25,6 +36,21 @@ namespace MVCTutorialProject.Controllers
         public IActionResult Contact()
         {
             return View();
+        }
+
+        [HttpGet]
+        [Route("Publisher")]
+        public IActionResult Publisher()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [Route("Publisher")]
+        public IActionResult Publisher(Essay model, BlogApp app)
+        {
+            var x = app.Save(model);
+            return RedirectToAction("Home");
         }
 
         [HttpGet]

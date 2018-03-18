@@ -20,3 +20,10 @@ C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlogProject\obj\Debug\netcoreapp2.
 C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlogProject\obj\Debug\netcoreapp2.0\MVCBlog.AssemblyInfo.cs
 C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlogProject\obj\Debug\netcoreapp2.0\MVCBlog.dll
 C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlogProject\obj\Debug\netcoreapp2.0\MVCBlog.pdb
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlogProject\bin\Debug\netcoreapp2.0\MVCBlog.App.dll
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlogProject\bin\Debug\netcoreapp2.0\MVCBlog.Crosscuting.dll
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlogProject\bin\Debug\netcoreapp2.0\MVCBlog.Domain.dll
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlogProject\bin\Debug\netcoreapp2.0\MVCBlog.App.pdb
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlogProject\bin\Debug\netcoreapp2.0\MVCBlog.Crosscuting.pdb
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlogProject\bin\Debug\netcoreapp2.0\MVCBlog.Domain.pdb
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlogProject\obj\Debug\netcoreapp2.0\MVCBlog.csproj.CopyComplete

@@ -2,7 +2,7 @@
 
 namespace MVCBlog.Domain.Data
 {
-    class BlogContext : DbContext
+    public class BlogContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -13,5 +13,7 @@ namespace MVCBlog.Domain.Data
         {
             modelBuilder.ApplyConfiguration(new Configuration.EssayConfig());
         }
+
+        public DbSet<Entities.Essay> Essays { get; set; }
     }
 }

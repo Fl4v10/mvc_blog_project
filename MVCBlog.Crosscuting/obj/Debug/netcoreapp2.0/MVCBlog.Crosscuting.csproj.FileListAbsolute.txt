@@ -1,0 +1,10 @@
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Crosscuting\bin\Debug\netcoreapp2.0\MVCBlog.Crosscuting.deps.json
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Crosscuting\bin\Debug\netcoreapp2.0\MVCBlog.Crosscuting.dll
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Crosscuting\bin\Debug\netcoreapp2.0\MVCBlog.Crosscuting.pdb
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Crosscuting\obj\Debug\netcoreapp2.0\MVCBlog.Crosscuting.Messages.resources
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Crosscuting\obj\Debug\netcoreapp2.0\MVCBlog.Crosscuting.csproj.GenerateResource.cache
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Crosscuting\obj\Debug\netcoreapp2.0\MVCBlog.Crosscuting.csproj.CoreCompileInputs.cache
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Crosscuting\obj\Debug\netcoreapp2.0\MVCBlog.Crosscuting.AssemblyInfoInputs.cache
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Crosscuting\obj\Debug\netcoreapp2.0\MVCBlog.Crosscuting.AssemblyInfo.cs
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Crosscuting\obj\Debug\netcoreapp2.0\MVCBlog.Crosscuting.dll
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Crosscuting\obj\Debug\netcoreapp2.0\MVCBlog.Crosscuting.pdb

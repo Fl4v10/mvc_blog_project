@@ -1,0 +1,31 @@
+﻿@model List<MVCBlog.Domain.Entities.Essay>
+
+    @foreach (var item in Model)
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="post-preview">
+                        <a href="post.html">
+                            <h2 class="post-title">
+                                @item.Title
+                            </h2>
+                            <h3 class="post-subtitle">
+                                @item.Subtitle
+                            </h3>
+                        </a>
+                        <p class="post-meta">
+                            <a href="#">Data de publicação</a>
+                            @item.PublishDate.ToString("dd de MMM de yyyy.")
+                        </p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    }
+
+<!-- Pager -->
+<div class="clearfix">
+    <a class="btn btn-primary float-right" href="#">Próximo &rarr;</a>
+</div>
