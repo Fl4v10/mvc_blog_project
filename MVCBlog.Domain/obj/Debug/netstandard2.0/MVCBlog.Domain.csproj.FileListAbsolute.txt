@@ -1,0 +1,11 @@
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Domain\bin\Debug\netstandard2.0\MVCBlog.Domain.deps.json
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Domain\bin\Debug\netstandard2.0\MVCBlog.Domain.dll
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Domain\bin\Debug\netstandard2.0\MVCBlog.Domain.pdb
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Domain\obj\Debug\netstandard2.0\MVCBlog.Domain.csprojResolveAssemblyReference.cache
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Domain\obj\Debug\netstandard2.0\MVCBlog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Domain\obj\Debug\netstandard2.0\MVCBlog.Domain.AssemblyInfoInputs.cache
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Domain\obj\Debug\netstandard2.0\MVCBlog.Domain.AssemblyInfo.cs
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Domain\obj\Debug\netstandard2.0\MVCBlog.Domain.dll
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Domain\obj\Debug\netstandard2.0\MVCBlog.Domain.pdb
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Domain\bin\Debug\netstandard2.0\MVCBlog.Domain.runtimeconfig.json
+C:\Users\PAULO\source\repos\MVCBlogProject\MVCBlog.Domain\bin\Debug\netstandard2.0\MVCBlog.Domain.runtimeconfig.dev.json

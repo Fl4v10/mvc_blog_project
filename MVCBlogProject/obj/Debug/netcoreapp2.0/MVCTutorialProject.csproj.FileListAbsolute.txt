@@ -1,0 +1,11 @@
+C:\Users\PAULO\source\repos\MVCTutorialProject\MVCTutorialProject\bin\Debug\netcoreapp2.0\MVCTutorialProject.deps.json
+C:\Users\PAULO\source\repos\MVCTutorialProject\MVCTutorialProject\bin\Debug\netcoreapp2.0\MVCTutorialProject.runtimeconfig.json
+C:\Users\PAULO\source\repos\MVCTutorialProject\MVCTutorialProject\bin\Debug\netcoreapp2.0\MVCTutorialProject.runtimeconfig.dev.json
+C:\Users\PAULO\source\repos\MVCTutorialProject\MVCTutorialProject\bin\Debug\netcoreapp2.0\MVCTutorialProject.dll
+C:\Users\PAULO\source\repos\MVCTutorialProject\MVCTutorialProject\bin\Debug\netcoreapp2.0\MVCTutorialProject.pdb
+C:\Users\PAULO\source\repos\MVCTutorialProject\MVCTutorialProject\obj\Debug\netcoreapp2.0\MVCTutorialProject.csprojResolveAssemblyReference.cache
+C:\Users\PAULO\source\repos\MVCTutorialProject\MVCTutorialProject\obj\Debug\netcoreapp2.0\MVCTutorialProject.csproj.CoreCompileInputs.cache
+C:\Users\PAULO\source\repos\MVCTutorialProject\MVCTutorialProject\obj\Debug\netcoreapp2.0\MVCTutorialProject.AssemblyInfoInputs.cache
+C:\Users\PAULO\source\repos\MVCTutorialProject\MVCTutorialProject\obj\Debug\netcoreapp2.0\MVCTutorialProject.AssemblyInfo.cs
+C:\Users\PAULO\source\repos\MVCTutorialProject\MVCTutorialProject\obj\Debug\netcoreapp2.0\MVCTutorialProject.dll
+C:\Users\PAULO\source\repos\MVCTutorialProject\MVCTutorialProject\obj\Debug\netcoreapp2.0\MVCTutorialProject.pdb
