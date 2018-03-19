@@ -31,7 +31,7 @@ namespace MVCBlog.App.Services
             }
         }
 
-        public List<Essay> Get(int? id, string search)
+        public List<Essay> Get(int? id, int? last, string search)
         {
             using (var db = new BlogContext())
             {
@@ -41,6 +41,14 @@ namespace MVCBlog.App.Services
                         .Where(e => e.Title.Contains(search) || e.Subtitle.Contains(search))
                         .OrderByDescending(e => e.PublishDate).ToList();
                     return filteredEssays;
+                }
+
+                if (last.HasValue)
+                {
+                    List<Essay> PaginatedEssays = db.Essays.AsNoTracking()
+                        .Where(e => e.Id > last.Value)
+                        .OrderByDescending(e => e.PublishDate).Take(10).ToList();
+                    return PaginatedEssays;
                 }
 
                 if (id.HasValue)

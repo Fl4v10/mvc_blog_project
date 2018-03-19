@@ -1,8 +1,10 @@
 ﻿@model List<MVCBlog.Domain.Entities.Essay>
 
-    @foreach (var item in Model)
-    {
-        <div class="container">
+@if (Model != null)
+{
+    <div class="container">
+        @foreach (var item in Model)
+        {
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="post-preview">
@@ -10,22 +12,31 @@
                             <h2 class="post-title">
                                 @item.Title
                             </h2>
-                            <h3 class="post-subtitle">
-                                @item.Subtitle
-                            </h3>
+                            @if (item.Subtitle == null && item.Body.Length > 100)
+                            {
+                                <h5 class="post-subtitle">
+                                    @item.Body.Substring(0, 60)...
+                                </h5>
+
+                            }
+                            else
+                            {
+                                <h5 class="post-subtitle">
+                                    @item.Subtitle
+                                </h5>
+                            }
                         </a>
                         <p class="post-meta">
                             <a href="#">Data de publicação</a>
-                            @item.PublishDate.ToString("dd de MMM de yyyy.")
+                            @item.PublishDate.ToString("dd/MMM/yyyy.")
                         </p>
                     </div>
                     <hr>
                 </div>
             </div>
-        </div>
-    }
-
-<!-- Pager -->
-<div class="clearfix">
-    <a class="btn btn-primary float-right" href="#">Próximo &rarr;</a>
-</div>
+        }
+            <div class="clearfix">
+                <a class="btn btn-primary float-right" asp-controller="home" asp-action="home" asp-route-id="@Model.Last().Id">Próximo &rarr;</a>
+            </div>
+    </div>
+}

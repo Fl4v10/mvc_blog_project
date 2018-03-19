@@ -18,21 +18,21 @@ namespace MVCBlog.Controllers
 
         [HttpGet]
         [Route("Home")]
-        public IActionResult Home(int? id, BlogApp app)
+        public IActionResult Home(int? id, int? last, string search, BlogApp app)
         {
-            List<Essay> model = app.Get(id, null);
+            List<Essay> model = app.Get(id, last, search);
             return View(model);
         }
 
         [HttpGet]
-        [Route("Sobre")]
+        [Route("About")]
         public IActionResult About()
         {
             return View();
         }
 
         [HttpGet]
-        [Route("Contato")]
+        [Route("Contact")]
         public IActionResult Contact()
         {
             return View();
@@ -49,7 +49,11 @@ namespace MVCBlog.Controllers
         [Route("Publisher")]
         public IActionResult Publisher(Essay model, BlogApp app)
         {
-            var x = app.Save(model);
+            int valid = app.Save(model);
+
+            if (valid == 0)
+                return RedirectToAction("Error");
+            
             return RedirectToAction("Home");
         }
 
